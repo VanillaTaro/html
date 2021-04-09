@@ -1,0 +1,46 @@
+body {
+    color: aliceblue;
+    font: font-style font-variant font-weight font-size/line-height font-family;
+    padding: top right bottom left;      /* 补白 */
+    margin: top right bottom left;       /* 边界 */
+    border-bottom: thin dotted #888888;     /* 修饰文本 text-decoration: underline; */
+    background-color: rgb(167, 207, 187);    /* 可以用数值，满值255;还可以用 #cc6600 二进制 */
+    background-image: url();
+
+}
+
+h1, h2 {
+    font-size: 150%;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+p {
+    color: aliceblue;
+}
+
+.类 {
+    color: aliceblue;
+}
+
+p.类 {
+    color: aliceblue;
+}
+
+p.类2 {
+    color: aliceblue;
+}/* 靠后规则，重复属性后者生效 */
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:hover {
+    color: azure;
+}
